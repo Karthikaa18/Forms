@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Feedback form</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+		<h1>Employee Feedback Form</h1>
+		<p>Please take a few moments to complete this feedback form</p><hr><br>
+
+		<form method="post">
+
+		<label for="empname"><b>Employee Name:</b></label><br><br>
+		<input type="text" placeholder="Employee Name" id="empname" required><br><hr><br>
+
+		<label><b>What's your current position?</b></label><br><br>
+		<input type="checkbox" name="check">IT<br>
+		<input type="checkbox" name="check">Marketing<br>
+		<input type="checkbox" name="check">Accounting<br>
+		<input type="checkbox" name="check">Sales<br>
+		<input type="checkbox" name="check">Other<br>
+		<input type="text" maxlength="50"><br>Maximum 50 characters only.<br><hr><br>
+
+		<label for="most"><b>What do you like the most about this job?</b></label><br><br>
+		<textarea rows="8" cols="30" id="most" required></textarea><br><hr><br>
+
+		<label for="least"><b>What do you like the least about this job?</b></label><br><br>
+		<textarea rows="8" cols="30" id="least" required></textarea><br><hr><br>
+
+		<label><b>How satisfied are you with the following aspects?</b></label><br><br>
+		<strong>Salary:</strong><br>
+			<input type="radio" name="radio">Very unsatisfied<br>
+			<input type="radio" name="radio">Satisfied<br>
+			<input type="radio" name="radio">Neutral<br><hr><br>
+		<strong>Benefits:</strong><br>
+			<input type="radio" name="radio1">Very unsatisfied<br>
+			<input type="radio" name="radio1">Satisfied<br>
+			<input type="radio" name="radio1">Neutral<br><hr><br>
+		<strong>Management:</strong><br>
+			<input type="radio" name="radio2">Very unsatisfied<br>
+			<input type="radio" name="radio2">Satisfied<br>
+			<input type="radio" name="radio2">Neutral<br><hr><br>
+		<strong>Overall Satisfaction:</strong><br>
+			<input type="radio" name="radio3">Very unsatisfied<br>
+			<input type="radio" name="radio3">Satisfied<br>
+			<input type="radio" name="radio3">Neutral<br><hr><br>
+
+		<label>Please indicate your agreement level with the following statements.</label><br><br>
+		<strong>I like my job:</strong><br>
+			<input type="radio" name="radio4">Highly Disagree<br>
+			<input type="radio" name="radio4">Disagree<br>
+			<input type="radio" name="radio4">Neutral<br>
+			<input type="radio" name="radio4">Agree<br><hr><br>
+		<strong>I like my coworkers:</strong><br>
+			<input type="radio" name="radio5">Highly Disagree<br>
+			<input type="radio" name="radio5">Disagree<br>
+			<input type="radio" name="radio5">Neutral<br>
+			<input type="radio" name="radio5">Agree<br><hr><br>
+		<strong>I like my managers:</strong><br>
+			<input type="radio" name="radio6">Highly Disagree<br>
+			<input type="radio" name="radio6">Disagree<br>
+			<input type="radio" name="radio6">Neutral<br>
+			<input type="radio" name="radio6">Agree<br><hr><br>
+
+		<input type="submit"><hr>
+
+		
+
+	</form>
+</body>
+</html>
